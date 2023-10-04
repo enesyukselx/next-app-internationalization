@@ -9,6 +9,8 @@ react-i18next
 ## Usage Server
 
 ```javascript
+import { useTranslation } from "@/app/i18n";
+
 export default async function Page() {
     const locale = await getLocale();
 

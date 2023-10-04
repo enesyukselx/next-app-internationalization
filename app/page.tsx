@@ -17,7 +17,7 @@ export default async function Home() {
 
                 <Link
                     className="block bg-slate-100 text-black mt-6 w-[200px] m-auto py-1 rounded-sm font-bold hover:bg-slate-300"
-                    href="/explore"
+                    href={locale === "tr" ? "/explore" : `/${locale}/explore`}
                 >
                     {t("explore")}
                 </Link>

@@ -4,7 +4,7 @@ const Navbar = async () => {
     const locale = await getLocale();
 
     return (
-        <div className="bg-slate-200 text-slate-800 mb-6 py-2 text-center font-bold flex justify-center gap-4">
+        <div className="bg-slate-200 text-slate-800 mb-6 py-2 font-bold flex px-4 gap-4 rounded-md">
             <a
                 href="/"
                 className={`

@@ -17,7 +17,9 @@ export default async function RootLayout({
 
     return (
         <html lang={locale}>
-            <body className="p-10 bg-slate-900 text-white">{children}</body>
+            <body className="p-10 bg-black text-white">
+                <div className="max-w-[700px] w-1/2 m-auto">{children}</div>
+            </body>
         </html>
     );
 }

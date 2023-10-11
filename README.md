@@ -32,7 +32,7 @@ export default async function Page() {
 import { useTranslation } from "@/app/i18n/client";
 
 export default function Page() {
-    const { t } = useTranslation(locale, "client-page");
+    const { t } = useTranslation(locale, "client-page"); //client-page.json
 
     return <p>{t("title")}</p>;
 }
